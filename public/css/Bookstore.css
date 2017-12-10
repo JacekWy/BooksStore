@@ -1,0 +1,22 @@
+body
+{
+    background:#3097D1;
+
+}
+h1{
+    text-align: center;
+}
+
+nav{
+
+    padding: 10px;
+    width: 100px;
+    background-color: #f1f1f1;
+}
+a:hover {
+    color: red;
+}
+a
+{
+    text-decoration: none;
+}
