@@ -15,6 +15,13 @@
 
 
 @yield('content')
+@foreach ($book as $object)
+    {{ $object->id }}
+    {{ $object->Tytul }}
+    {{ $object->Opis }}
+    {{ $object->Cena }}
+    {{ $object->Ilosc }}
+@endforeach
 
 </body>
 </html>
