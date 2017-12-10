@@ -11,5 +11,6 @@
 |
 */
 
-Route::get('/', 'BookStoreController@index' );
+Route::get('/Bookstore', 'BookStoreController@index' );
+Route::get('/Bookstore/about', 'BookStoreController@about' );
 

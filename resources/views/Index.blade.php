@@ -6,5 +6,9 @@
 </head>
 <body>
 <h1>Stona Glowna</h1>
+<a href="Bookstore/about">About</a>
+
+@yield('content')
+
 </body>
 </html>
