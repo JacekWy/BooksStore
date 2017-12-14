@@ -2,7 +2,7 @@
 @section ('content')
     <h1>Dodawanie Ksiazki</h1>
 
-    {!! Form::open(['url'=>'Bookstore/Books','class'=>'form-horizontal','action'=>['BookStoreController@Bookinsert']]) !!}
+    {!! Form::open(['class'=>'form-horizontal','action'=>['BookStoreController@Bookinsert'],'method'=>'POST']) !!}
 
     <div class="form-group">
         <div class="col-md-4 control-label">

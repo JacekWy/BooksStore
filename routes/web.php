@@ -11,12 +11,12 @@
 |
 */
 
-Route::get('/Bookstore', 'BookStoreController@index' );
-Route::get('/Bookstore/about', 'BookStoreController@about' );
-Route::get('/Bookstore/contact', 'BookStoreController@contact' );
-Route::get('/Bookstore/Books', 'BookStoreController@Books' );
-Route::get('/Bookstore/Bookadd', 'BookStoreController@Bookadd' );
+Route::get('Bookstore', 'BookStoreController@index' );
+Route::get('Bookstore/about', 'BookStoreController@about' );
+Route::get('Bookstore/contact', 'BookStoreController@contact' );
+Route::get('Bookstore/Books', 'BookStoreController@Books' );
+Route::get('Bookstore/Bookadd', 'BookStoreController@Bookadd' );
 
 
-Route::post('/Bookstore/Bookinsert', 'BookStoreController@Bookinsert' );
+Route::post('Bookstore/Bookinsert', 'BookStoreController@Bookinsert' );
 
