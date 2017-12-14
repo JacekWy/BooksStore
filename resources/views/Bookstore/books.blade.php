@@ -27,7 +27,6 @@
         @endforeach
     </table>
 
-
 @stop
 
 
