@@ -19,20 +19,13 @@
             <td>{{ $object->id }}</td>
             <td>{{ $object->Tytul }}</td>
             <td>{{ $object->Opis }}</td>
-            <td>{{ $object->Cena }}</td>
-            <td> {{ $object->Ilosc }}</td>
+            <td>{{ $object->Cena }} zl</td>
+            <td>{{ $object->Ilosc }} sztuk</td>
 
         </tr>
         </tbody>
         @endforeach
     </table>
-
-
-
-
-
-
-
 
 
 @stop
