@@ -8,20 +8,24 @@
 <body>
 <h1>Book Store</h1>
 <nav >
+        <a href="{{url('/Bookstore/Books')}}">Ksiazki</a>
         <a href="{{url('/Bookstore/contact')}}">Kontakt</a>
         <a href="{{url('/Bookstore/about')}}">About</a>
 </nav>
 
+<article>
+    @yield('content')
+
+</article>
 
 
-@yield('content')
-@foreach ($book as $object)
-    {{ $object->id }}
-    {{ $object->Tytul }}
-    {{ $object->Opis }}
-    {{ $object->Cena }}
-    {{ $object->Ilosc }}
-@endforeach
+
+
+<footer>
+    Najlepsze ksiazki
+
+</footer>
+
 
 </body>
 </html>
