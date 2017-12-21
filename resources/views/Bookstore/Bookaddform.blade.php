@@ -10,7 +10,7 @@
             {!!Form::label('Tytul','Tytul:')!!}
         </div>
         <div class="col-md-6">
-            {!!Form::text('Tytul',null,['class'=>'form-control'])!!}
+            {!!Form::text('Tytul',null,['class'=>'form-control','required' => 'required'])!!}
         </div>
     </div>
 
@@ -21,7 +21,7 @@
         </div>
 
         <div class="col-md-6">
-            {!!Form::textarea('Opis',null,['class'=>'form-control'])!!}
+            {!!Form::textarea('Opis',null,['class'=>'form-control','required' => 'required'])!!}
         </div>
     </div>
 
@@ -32,7 +32,7 @@
         </div>
 
         <div class="col-md-6">
-            {!!Form::number('Cena',null,['class'=>'form-control'])!!}
+            {!!Form::number('Cena',null,['class'=>'form-control','required' => 'required'])!!}
         </div>
     </div>
     <div class="form-group">
@@ -42,14 +42,14 @@
         </div>
 
         <div class="col-md-6">
-            {!!Form::number('Ilosc',null,['class'=>'form-control'])!!}
+            {!!Form::number('Ilosc',null,['class'=>'form-control','required' => 'required'])!!}
         </div>
     </div>
 
     <div class="form-group">
 
         <div class="col-md-6 col-md-offset-4">
-            {!!Form::submit('Dodaj Ksiazke',['class'=>'btn btn-primary'])!!}
+            {!!Form::submit('Dodaj Ksiazke',['class'=>'btn btn-default'])!!}
         </div>
     </div>
 

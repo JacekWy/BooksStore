@@ -6,7 +6,7 @@
     <link href="{{URL::asset('css/Bookstore.css') }}" rel="stylesheet">
 </head>
 <body>
-<h1>Book Store</h1>
+<h1>BookStore</h1>
 <nav >
         <a href="{{url('/Bookstore/Books')}}">Ksiazki</a>
         <a href="{{url('/Bookstore/Bookadd')}}">Dodaj Ksiazke</a>

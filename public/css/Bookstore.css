@@ -1,11 +1,19 @@
 h1{
     text-align: center;
+    font-family: "Inconsolata", "Fira Mono", "Source Code Pro", Monaco, Consolas, "Lucida Console", monospace;
+
+}
+h3{
+    text-align: center;
+    font-family: "Inconsolata", "Fira Mono", "Source Code Pro", Monaco, Consolas, "Lucida Console", monospace;
 }
 
 nav{
     font-size: 22px;
     width: 600px;
     background-color: #f1f1f1;
+    font-family: 'Raleway', sans-serif;
+
 }
 a:hover{
     color: red;
@@ -76,4 +84,9 @@ table.blueTable tfoot .links a{
     color: #FFFFFF;
     padding: 2px 8px;
     border-radius: 5px;
+}
+.form-group{
+    text-align: center;
+
+
 }
